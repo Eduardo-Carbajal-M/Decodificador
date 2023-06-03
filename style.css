@@ -148,8 +148,6 @@ textarea:focus,
     text-align: center;
 }
 
-
-
 .mensaje-encriptado h2 {
     width: 60%;
     font-family: 'Inter';
@@ -194,8 +192,9 @@ textarea:focus,
     padding: 10px;
 }
 
-/* .pie-pagina {
-    background: linear-gradient(#f3f5fc, #0a3871);
+.pie-pagina {
+    /* background: linear-gradient(#f3f5fc, #d8dfe8); */
+    background: #0a3871;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
@@ -203,7 +202,25 @@ textarea:focus,
     line-height: 150%;
     color: #fff;
     text-align: center;
-} */
+}
+
+.copyright {
+    font-size: 16px;
+    color: #fff;
+}
+
+.Redes-Sociales {
+    display: flex; /*Para que sea flexibles*/
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1% 21%;
+    gap: 25%;
+    
+}
+
+ul {
+    list-style: none;
+}
 
 /* Responsive desing */
 
@@ -259,5 +276,8 @@ textarea:focus,
         top: 0;
         display: none;
         visibility: hidden;
+    }
+    .pie-pagina {
+        margin-top: 1%;
     }
 }
